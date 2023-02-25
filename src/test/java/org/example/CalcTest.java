@@ -1,12 +1,10 @@
 package org.example;
-
-
 import org.junit.*;
-
 import static jdk.nashorn.internal.objects.Global.Infinity;
 
-
+//ex.1
 public class CalcTest {
+
     Calculator calculator;
 
     @Before

@@ -2,7 +2,7 @@ package org.example;
 
 public class Calculator {
 
-
+//ex.1
     public double multiplication(double multOne, double multTwo) {
         return multOne * multTwo;
     }

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719c5add-472f-4c8c-8785-b810b080fe29" name="Changes" comment="HW8. Calculator started">
+    <list default="true" id="719c5add-472f-4c8c-8785-b810b080fe29" name="Changes" comment="Ex.1, ex.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SolverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalcTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +51,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CalcTest.divZeroDivision">
-    <configuration name="CalcTest.divNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolverTest">
+    <configuration name="SolverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework8" />
       <extension name="coverage">
         <pattern>
@@ -56,14 +61,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalcTest" />
-      <option name="METHOD_NAME" value="divNegativeNumbers" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolverTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolverTest.checkAllZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning-homework8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolverTest" />
+      <option name="METHOD_NAME" value="checkAllZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.divPositiveNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolverTest.checkDiscriminantZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework8" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalcTest" />
-      <option name="METHOD_NAME" value="divPositiveNumbers" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolverTest" />
+      <option name="METHOD_NAME" value="checkDiscriminantZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.divZeroDividend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolverTest.checkNegativeA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework8" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +108,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalcTest" />
-      <option name="METHOD_NAME" value="divZeroDividend" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolverTest" />
+      <option name="METHOD_NAME" value="checkNegativeA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.divZeroDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolverTest.checkNegativeB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework8" />
       <extension name="coverage">
         <pattern>
@@ -104,24 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalcTest" />
-      <option name="METHOD_NAME" value="divZeroDivision" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalcTest.multZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Learning-homework8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalcTest" />
-      <option name="METHOD_NAME" value="multZero" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SolverTest" />
+      <option name="METHOD_NAME" value="checkNegativeB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalcTest.divZeroDivision" />
-        <item itemvalue="JUnit.CalcTest.divZeroDividend" />
-        <item itemvalue="JUnit.CalcTest.divNegativeNumbers" />
-        <item itemvalue="JUnit.CalcTest.divPositiveNumbers" />
-        <item itemvalue="JUnit.CalcTest.multZero" />
+        <item itemvalue="JUnit.SolverTest" />
+        <item itemvalue="JUnit.SolverTest.checkNegativeB" />
+        <item itemvalue="JUnit.SolverTest.checkAllZero" />
+        <item itemvalue="JUnit.SolverTest.checkNegativeA" />
+        <item itemvalue="JUnit.SolverTest.checkDiscriminantZero" />
       </list>
     </recent_temporary>
   </component>
@@ -153,29 +157,53 @@
       <option name="project" value="LOCAL" />
       <updated>1677264352319</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ex.1, ex.2">
+      <created>1677331489311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677331489311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW8. Calculator started" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW8. Calculator started" />
+    <MESSAGE value="Ex.1, ex.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex.1, ex.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/CalcTest.java</url>
-          <line>43</line>
+          <line>41</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/CalcTest.java</url>
-          <line>58</line>
+          <line>56</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/CalcTest.java</url>
-          <line>57</line>
+          <line>55</line>
           <properties class="org.example.CalcTest" method="divZeroDivision">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
