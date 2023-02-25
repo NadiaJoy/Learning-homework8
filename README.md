@@ -10,5 +10,5 @@ N | Check Name   | Status
 4 | Check multiplication with zero   | Pass
 5 | Check division of two positive numbers | Pass
 6 | Check division of two negative numbers | Pass
-7 | Check division with zero in divident | Pass
+7 | Check division with zero in dividend | Pass
 8 | Check division with zero in divisor | Pass
