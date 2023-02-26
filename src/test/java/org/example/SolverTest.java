@@ -17,7 +17,7 @@ public class SolverTest {
     }
     @Test
     public void checkDiscriminantNegative() {
-        int result = solver.numberOfRoots(1, -10, 2);
+        int result = solver.numberOfRoots(1, 0, 36);
         Assert.assertEquals(0, result);
     }
     @Test
